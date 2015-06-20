@@ -73,7 +73,6 @@ final class PhabricatorAccountSettingsPanel extends PhabricatorSettingsPanel {
     asort($translations);
     // TODO: Implement "locale.default" and use it here.
     $default = 'en_US';
-    $default = "zh_CN";
     $translations = array(
       '' => pht('Server Default: %s', $locales[$default]->getLocaleName()),
     ) + $translations;
