@@ -126,7 +126,8 @@ final class PhabricatorEnv extends Phobject {
 
     // TODO: Add a "locale.default" config option once we have some reasonable
     // defaults which aren't silly nonsense.
-    self::setLocaleCode('en_US');
+   // self::setLocaleCode('en_US');
+    self::setLocaleCode("zh_CN");
   }
 
   public static function beginScopedLocale($locale_code) {
