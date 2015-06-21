@@ -254,7 +254,7 @@ final class DiffusionServeController extends DiffusionController {
     if ($uri) {
       $future = $this->getRequest()->newClusterProxyFuture($uri);
       return id(new AphrontHTTPProxyResponse())
-        ->setHTTPFuture($future);
+        ->setHTTPFuture(          );
     }
 
     // Otherwise, we're going to handle the request locally.

@@ -13,6 +13,34 @@ final class PhabricatorCNChineseTranslation
         '需要分派',
         '需要分派'
       ),
+       'Username or password are incorrect.'=>array(
+           '用户名或者密码不匹配',
+           '用户名或者密码不匹配'
+       ),
+       'Forgot your password?'=>array(
+           "忘记密码？",
+           "忘记密码？"
+       ),
+        'Username or Email'=>array(
+          '用户名或者Email',
+          '用户名或者Email'  
+        ),
+        'Password'=>array(
+            '密码',
+            '密码'
+        ),
+        'Invalid'=>array(
+           '有误',
+            '有误'
+        ),
+        'Login to Phabricator'=>array(
+            '登入 Phabricator',
+            '登入 Phabricator'
+        ),
+        'Login' =>array(
+            '登录',
+            '登录'
+        ),
       'No daemon(s) with id(s) "%s" exist!' => array(
         'No daemon with id %s exists!',
         'No daemons with ids %s exist!',

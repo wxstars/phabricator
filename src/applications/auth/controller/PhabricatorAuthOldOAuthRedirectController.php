@@ -29,6 +29,7 @@ final class PhabricatorAuthOldOAuthRedirectController
     $provider_map = array(
       'google' => 'google:google.com',
       'github' => 'github:github.com',
+      'ucai' => 'ucai:ucai.cn'
     );
 
     if (!isset($provider_map[$this->provider])) {
